@@ -54,7 +54,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'Mixpanel' do |subspec|
     subspec.source_files = 'Analytical/Classes/Provider/MixpanelProvider.swift'
-    subspec.dependency 'Analytical/Core'
     subspec.dependency 'Mixpanel-swift'
   end
 
